@@ -5,9 +5,9 @@ module.exports = function(app) {
         let mysql = require('mysql');
 
         let connection = mysql.createConnection({
-            host: '52.71.244.54',
-            user: 'mondamon',
-            password:'123456',
+            host: 'xxxx',
+            user: 'xxxxxx',
+            password:'xxxx',
             database: 'portal_noticias',
         });
     
